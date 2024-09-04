@@ -15,9 +15,11 @@ Kit de Ferramentas para Defensores da Terra
 ## Centro de Trabalho Indigenista
 ![Logo CTI](/logos/logo_cti.png)
 
-### Paula
+### Paula Sobral
+Assessora técnica do Programa Timbira
 
-### Renan
+### Renan Chaves
+Assessor técnico do Programa Timbira
 
 ## Fundação Nacional dos Povos Indígenas
 ![Logo FUNAI](/logos/logo_funai.png)

@@ -2,7 +2,6 @@
 mainTitle: Intercâmbio de Defesa Territorial
 title: II Intercâmbio de Defesa Territorial
 title_2: I Encontro de Mulheres para Defesa Territorial
-subTitle: das organizações indígenas
 local: Aldeia Galheiro Novo, Itacajá, Tocantins
 localMedia: aldeia_kraho.jpg
 data: 16 a 23 de setembro de 2024
