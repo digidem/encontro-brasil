@@ -5,22 +5,22 @@
 ## II Intercâmbio de Defesa Territorial
 
 
-![logo_kraho.png](/encontro-brasilcontent/images/eventinformation_0.png)
+![logo_kraho.png](content/images/eventinformation_0.png)
 
 
-![logo_guerreiras.png](/encontro-brasilcontent/images/eventinformation_1.png)
+![logo_guerreiras.png](content/images/eventinformation_1.png)
 
 
-![logo_guardioes_caru.png](/encontro-brasilcontent/images/eventinformation_2.png)
+![logo_guardioes_caru.png](content/images/eventinformation_2.png)
 
 
-![kaaiwar.png](/encontro-brasilcontent/images/eventinformation_3.png)
+![kaaiwar.png](content/images/eventinformation_3.png)
 
 
 ### Local
 
 
-![aldeia_kraho.jpg](/encontro-brasilcontent/images/eventinformation_4.jpg)
+![aldeia_kraho.jpg](content/images/eventinformation_4.jpg)
 
 
 Aldeia Galheiro Novo, Itacajá, Tocantins
