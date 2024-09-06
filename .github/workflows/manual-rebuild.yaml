@@ -23,7 +23,7 @@ jobs:
     - name: Build and Deploy
       uses: ./.github/actions/build-and-deploy
       with:
-        notion_api_key: ${{ inputs.notion_api_key }}
-        database_id: ${{ inputs.database_id }}
-        website_tag: ${{ inputs.website_tag }}
+        notion_api_key: ${{ inputs.notion_api_key || secrets.NOTION_API_KEY }}
+        database_id: ${{ inputs.database_id || secrets.DATABASE_ID }}
+        website_tag: ${{ inputs.website_tag || secrets.WEBSITE_TAG }}
         base_url: /${{ github.event.repository.name }}
