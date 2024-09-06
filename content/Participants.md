@@ -5,7 +5,7 @@
 ## Awana Digital
 
 
-![logo_awana.png](/content/images/participants_0.png)
+![logo_awana.png](/encontro-brasilcontent/images/participants_0.png)
 
 
 ### Bárbara González Segovia
@@ -38,10 +38,16 @@ Apoio programático de campo
 Apoio programático de campo
 
 
+### Jonas Lima Guajajara
+
+
+Apoio técnico de campo
+
+
 ## Centro de Trabalho Indigenista
 
 
-![logo_cti.png](/content/images/participants_1.png)
+![logo_cti.png](/encontro-brasilcontent/images/participants_1.png)
 
 
 ### Paula Sobral
@@ -59,7 +65,7 @@ Assessor técnico do Programa Timbira
 ## Fundação Nacional dos Povos Indígenas
 
 
-![logo_funai.png](/content/images/participants_2.png)
+![logo_funai.png](/encontro-brasilcontent/images/participants_2.png)
 
 
 ### Clara Teixeira Ferrari
