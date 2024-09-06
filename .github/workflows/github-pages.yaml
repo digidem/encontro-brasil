@@ -16,32 +16,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Build and Deploy
+        uses: ./.github/actions/build-and-deploy
         with:
-          bun-version: latest
-
-      - name: Install dependencies
-        env:
-          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-          DATABASE_ID: ${{ secrets.DATABASE_ID }}
-          WEBSITE_TAG: ${{ secrets.WEBSITE_TAG }}
-        run: bun install
-
-      - name: Build the project
-        env:
-          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-          DATABASE_ID: ${{ secrets.DATABASE_ID }}
-          WEBSITE_TAG: ${{ secrets.WEBSITE_TAG }}
-          BASE_URL: /${{ github.event.repository.name }}
-        run: bun run build
-
-      - name: List build directory contents
-        run: ls -R ./dist
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
+          notion_api_key: ${{ secrets.NOTION_API_KEY }}
+          database_id: ${{ secrets.DATABASE_ID }}
+          website_tag: ${{ secrets.WEBSITE_TAG }}
+          base_url: /${{ github.event.repository.name }}

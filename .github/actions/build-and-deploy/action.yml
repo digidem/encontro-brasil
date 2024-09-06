@@ -1,0 +1,52 @@
+name: 'Build and Deploy'
+description: 'Build the project and deploy to GitHub Pages'
+
+inputs:
+  notion_api_key:
+    description: 'Notion API Key'
+    required: true
+  database_id:
+    description: 'Database ID'
+    required: true
+  website_tag:
+    description: 'Website Tag'
+    required: true
+  base_url:
+    description: 'Base URL for the website'
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set up Bun
+      uses: oven-sh/setup-bun@v2
+      with:
+        bun-version: latest
+
+    - name: Install dependencies
+      shell: bash
+      env:
+        NOTION_API_KEY: ${{ inputs.notion_api_key }}
+        DATABASE_ID: ${{ inputs.database_id }}
+        WEBSITE_TAG: ${{ inputs.website_tag }}
+      run: bun install
+
+    - name: Build the project
+      shell: bash
+      env:
+        NOTION_API_KEY: ${{ inputs.notion_api_key }}
+        DATABASE_ID: ${{ inputs.database_id }}
+        WEBSITE_TAG: ${{ inputs.website_tag }}
+        BASE_URL: ${{ inputs.base_url }}
+      run: bun run build
+
+    - name: List build directory contents
+      shell: bash
+      run: ls -R ./dist
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ github.token }}
+        publish_dir: ./dist
+        publish_branch: gh-pages

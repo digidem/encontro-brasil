@@ -1,0 +1,29 @@
+name: Manual Rebuild and Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      notion_api_key:
+        description: 'Notion API Key'
+        required: true
+      database_id:
+        description: 'Database ID'
+        required: true
+      website_tag:
+        description: 'Website Tag'
+        required: true
+
+jobs:
+  rebuild-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Build and Deploy
+      uses: ./.github/actions/build-and-deploy
+      with:
+        notion_api_key: ${{ inputs.notion_api_key }}
+        database_id: ${{ inputs.database_id }}
+        website_tag: ${{ inputs.website_tag }}
+        base_url: /${{ github.event.repository.name }}
