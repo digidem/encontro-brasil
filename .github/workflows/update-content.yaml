@@ -24,10 +24,3 @@ jobs:
         database_id: ${{ secrets.DATABASE_ID }}
         website_tag: ${{ secrets.WEBSITE_TAG }}
         base_url: /${{ github.event.repository.name }}
-
-    - name: Commit and push if changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update content" && git push)

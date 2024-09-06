@@ -5,13 +5,13 @@ on:
     inputs:
       notion_api_key:
         description: 'Notion API Key'
-        required: true
+        required: false
       database_id:
         description: 'Database ID'
-        required: true
+        required: false
       website_tag:
         description: 'Website Tag'
-        required: true
+        required: false
 
 jobs:
   rebuild-and-deploy:
