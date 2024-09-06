@@ -2,8 +2,17 @@ name: Update Content
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Run every minute
-  workflow_dispatch:  # Allow manual triggering
+    - cron: ${{ inputs.cron || '*/1 * * * *' }}  # Run every minute by default
+  workflow_dispatch:
+    inputs:
+      cron:
+        description: 'Cron schedule'
+        required: false
+        default: '*/1 * * * *'
+
+env:
+  MY_ENV_VAR1: ${{ secrets.MY_ENV_VAR1 }}
+  MY_ENV_VAR2: ${{ secrets.MY_ENV_VAR2 }}
 
 jobs:
   build:
@@ -22,6 +31,9 @@ jobs:
 
     - name: Build project
       run: bun run build
+      env:
+        MY_ENV_VAR1: ${{ env.MY_ENV_VAR1 }}
+        MY_ENV_VAR2: ${{ env.MY_ENV_VAR2 }}
 
     - name: Commit and push if changes
       run: |
