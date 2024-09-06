@@ -2,7 +2,7 @@ name: Update Content
 
 on:
   schedule:
-    - cron: ${{ inputs.cron || '*/1 * * * *' }}  # Run every minute by default
+    - cron: '*/10 * * * *'  # Run every 10 minutes
   workflow_dispatch:
     inputs:
       cron:
