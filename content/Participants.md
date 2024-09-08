@@ -85,3 +85,15 @@ Serviço de Gestão Ambiental e Territorial da Coordenação Regional Araguaia T
 
 Serviço de Gestão Ambiental e Territorial da Coordenação Regional Araguaia Tocantins/Funai
 
+
+### Can Indiarrury Krahô
+
+
+Coordenação Técnica Local de Itacajá
+
+
+### Maria dos Anjos
+
+
+Coordenação Técnica Local de Carolina
+
