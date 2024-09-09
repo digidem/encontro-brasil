@@ -47,7 +47,7 @@
 - **14:00:** Atividade prática de mapeamento
 - **16:00:** Corrida de toras tradicional e cantos no pátio central
 - **19:00:** Jantar comunitário
-- **Noite:** Cerimônia do Canto da Festa das Laranjas
+- **Noite:** Cerimônia de cantoria da Festa das Laranjas
 
 **Sábado, 21 de setembro**
 
@@ -61,7 +61,7 @@
 
 **Domingo, 22 de setembro**
 
-- **Ao longo do dia:** Atividades tradicionais com laranjas
+- **Ao longo do dia:** Atividades tradicionais da festa da laranja
 - **Tarde:** Desconferência - discussões abertas e compartilhamento de experiências
 - **Fim da tarde:** Apresentação especial das Guerreiras Krahô
 - **Noite:** Celebração com cantos ao redor da fogueira, jogos tradicionais e confraternização
