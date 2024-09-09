@@ -42,12 +42,12 @@
 **Sexta-feira, 20 de setembro**
 
 - **07:00:** Café da manhã
-- **08:00:** [Atividade] Workshop prático: Mapeo
+- **08:00:** Atividade prática de mapeamento
 - **11:40:** Almoço comunitário
-- **14:00:** [Atividade] Atividade de campo - aplicação prática
+- **14:00:** Atividade prática de mapeamento
 - **16:00:** Corrida de toras tradicional e cantos no pátio central
 - **19:00:** Jantar comunitário
-- **Noite:** Cerimônia do Canto das Laranjas
+- **Noite:** Cerimônia do Canto da Festa das Laranjas
 
 **Sábado, 21 de setembro**
 
