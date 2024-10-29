@@ -10,5 +10,9 @@
   {
     "name": "Participants",
     "fileName": "Participants.md"
+  },
+  {
+    "name": "Event Schedule",
+    "fileName": "EventSchedule.md"
   }
 ]
