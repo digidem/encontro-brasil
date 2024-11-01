@@ -5,7 +5,7 @@
 ## Awana Digital
 
 
-![logo_awana.png](content/images/participants_0.png)
+![logo_awana.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e294c517-062c-4d9d-9b6a-e105c195d06a/9157b774-2567-434d-b5b3-d215cb7d94e8/logo_awana.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T202958Z&X-Amz-Expires=3600&X-Amz-Signature=4e4b34786a26d6e175d701be769937f84b12611657bbce096d9e6f66ccaf7161&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### Bárbara González Segovia
