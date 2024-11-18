@@ -4,7 +4,15 @@
     "fileName": "Gallery.md"
   },
   {
+    "name": "Event Information",
+    "fileName": "EventInformation.md"
+  },
+  {
     "name": "Participants",
     "fileName": "Participants.md"
+  },
+  {
+    "name": "Event Schedule",
+    "fileName": "EventSchedule.md"
   }
 ]
