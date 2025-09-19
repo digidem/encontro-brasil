@@ -1,8 +1,6 @@
-name: Update Content (Cron)
+name: Update Content
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'  # Run every 10 minutes
   workflow_dispatch:
     inputs:
       cron:
